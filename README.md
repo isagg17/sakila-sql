@@ -41,7 +41,17 @@ Antes de comenzar las consultas se realizará una exploración de la base de dat
 
 ### 1. Exploración de la base de datos
 
-*Pendiente de completar.*
+Antes de comenzar con las consultas se realizó una exploración de la base de datos Sakila para comprender su estructura y las relaciones existentes entre sus tablas.
+
+Sakila representa la actividad de un negocio de alquiler de películas. Entre sus principales tablas se encuentran `film`, que contiene la información de las películas; `actor`, con los datos de los actores y actrices; `customer`, con la información de los clientes; `inventory`, que representa las copias disponibles; y `rental`, donde se registran los alquileres.
+
+Durante la exploración también se analizaron las claves primarias y foráneas para comprender cómo se relacionan las tablas. Por ejemplo, para conocer qué película corresponde a un alquiler es necesario seguir la relación:
+
+`rental → inventory → film`
+
+También existen tablas intermedias como `film_actor` y `film_category`, que permiten relacionar las películas con sus actores y categorías.
+
+Como apoyo para comprender estas relaciones se generó un diagrama entidad-relación (ER) de la base de datos.
 
 ### 2. Resolución de consultas
 

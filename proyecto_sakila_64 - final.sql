@@ -176,6 +176,9 @@ ORDER BY c.customer_id, r.rental_id;
 -- 44. CROSS JOIN entre film y category.
 SELECT f.film_id, f.title, c.category_id, c.name AS categoria
 FROM film f CROSS JOIN category c ORDER BY f.film_id, c.category_id;
+-- RESPUESTA: en general no aporta valor analítico directo: combina cada película con
+-- todas las categorías, aunque no estén relacionadas. Para conocer la categoría real
+-- se debe usar film_category con JOIN.
 
 -- 45. Actores que han participado en películas Action.
 SELECT DISTINCT a.actor_id, a.first_name, a.last_name

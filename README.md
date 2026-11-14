@@ -1,5 +1,5 @@
 # sakila-sql
-# DataProject: Lógica de Consultas SQL — Sakila
+#Proyecto de SQL: Sakila
 
 ## 1. Descripción del proyecto
 

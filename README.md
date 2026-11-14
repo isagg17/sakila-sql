@@ -1,4 +1,3 @@
-# sakila-sql
 ## Proyecto de SQL: Sakila
 
 ## 1. Descripción del proyecto

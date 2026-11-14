@@ -1,8 +1,7 @@
 # sakila-sql
-#Proyecto de SQL: Sakila
+## Proyecto de SQL: Sakila
 
 ## 1. Descripción del proyecto
-
 Este proyecto forma parte del Máster en Data Analyst de ThePower y consiste en resolver **64 ejercicios de SQL** utilizando la base de datos **Sakila** en PostgreSQL.
 
 Sakila representa la actividad de un negocio de alquiler de películas. Sus tablas permiten consultar información sobre películas, actores, categorías, clientes, inventario, alquileres y pagos.
